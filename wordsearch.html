@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Nagrik Aur Samvidhan !</title>
+	<link rel="stylesheet" type="text/css" href="css/wordsearch.css">
+</head>
+
+<body>
+	<h1>Nagrik Aur Samvidhan</h1>
+	<h2 id="instructions"></h2>
+	<h3 id="themeIntro">The theme is: <b>Constituition</b></h3>
+
+	<button id="newGameButton" type="button">New Game</button>
+	<div id="wordboard"></div>
+	<div id="wordlist"></div>
+	<button id="solveButton" type="button">Release the sacred answers!</button>
+	<div class="mean_word_p">
+		<div class="mean_word"  id="mean_word_id_1">
+			<div class="div1"><b>J</b></div>
+			<div class="div2">
+				<p class="div2_p" id="div2_p1">Fair treatment for everyone</p>
+				<button class="div2_btn1" id="button11" hidden>
+					<p class="div2_btn1_p" id="button11_p">Hint</p>
+				</button>
+				<button class="div2_btn2" id="button12" hidden>
+					<p class="div2_btn2_p" id="button12_p">Answer</p>
+				</button>
+			</div>
+			<div class="div3"><b>E</b></div>
+		</div>
+		<div class="mean_word" id="mean_word_id_2">
+			<div class="div1"><b>L</b></div>
+			<div class="div2">
+				<p class="div2_p" id="div2_p2">Freedom to think and act</p>
+				<button class="div2_btn1" id="button21" hidden>
+					<p class="div2_btn1_p" id="button21_p">Hint</p>
+				</button>
+				<button class="div2_btn2" id="button22" hidden>
+					<p class="div2_btn2_p" id="button22_p">Answer</p>
+				</button>
+			</div>
+			<div class="div3"><b>Y</b></div>
+		</div>
+		<div class="mean_word" id="mean_word_id_3">
+			<div class="div1"><b>E</b></div>
+			<div class="div2">
+				<p class="div2_p" id="div2_p3"> Everyone having the same rights and chances</p>
+				<button class="div2_btn1" id="button31" hidden>
+					<p class="div2_btn1_p" id="button31_p">Hint</p>
+				</button>
+				<button class="div2_btn2" id="button32" hidden>
+					<p class="div2_btn2_p" id="button32_p">Answer</p>
+				</button>
+			</div>
+			<div class="div3"><b>Y</b></div>
+		</div>
+		<div class="mean_word" id="mean_word_id_4">
+			<div class="div1"><b>F</b></div>
+			<div class="div2">
+				<p class="div2_p" id="div2_p4">A feeling of brotherhood and unity</p>
+				<button class="div2_btn1" id="button41" hidden>
+					<p class="div2_btn1_p" id="button41_p">Hint</p>
+				</button>
+				<button class="div2_btn2" id="button42" hidden>
+					<p class="div2_btn2_p" id="button42_p">Answer</p>
+				</button>
+			</div>
+			<div class="div3"><b>Y</b></div>
+		</div>
+		<div class="mean_word" id="mean_word_id_5">
+			<div class="div1"><b>S</b></div>
+			<div class="div2">
+				<p class="div2_p" id="div2_p5">The power of India to govern itself</p>
+				<button class="div2_btn1" id="button51" hidden>
+					<p class="div2_btn1_p" id="button51_p">Hint</p>
+				</button>
+				<button class="div2_btn2" id="button52" hidden>
+					<p class="div2_btn2_p" id="button52_p">Answer</p>
+				</button>
+			</div>
+			<div class="div3"><b>Y</b></div>
+		</div>
+		<div class="mean_word" id="mean_word_id_6">
+			<div class="div1"><b>D</b></div>
+			<div class="div2">
+				<p class="div2_p" id="div2_p6">System where people choose their leaders</p>
+				<button class="div2_btn1" id="button61" hidden>
+					<p class="div2_btn1_p" id="button61_p">Hint</p>
+				</button>
+				<button class="div2_btn2" id="button62" hidden>
+					<p class="div2_btn2_p" id="button62_p">Answer</p>
+				</button>
+			</div>
+			<div class="div3"><b>Y</b></div>
+		</div>
+		<div class="mean_word" id="mean_word_id_7">
+			<div class="div1"><b>S</b></div>
+			<div class="div2">
+				<p class="div2_p" id="div2_p7">Treating all religions equally, without favoring</p>
+				<button class="div2_btn1" id="button71" hidden>
+					<p class="div2_btn1_p" id="button71_p">Hint</p>
+				</button>
+				<button class="div2_btn2" id="button72" hidden>
+					<p class="div2_btn2_p" id="button72_p">Answer</p>
+				</button>
+			</div>
+			<div class="div3"><b>R</b></div>
+		</div>
+		<div class="mean_word" id="mean_word_id_8">
+			<div class="div1"><b>S</b></div>
+			<div class="div2">
+				<p class="div2_p" id="div2_p8">Fair sharing of resources and Wealth</p>
+				<button class="div2_btn1" id="button81" hidden>
+					<p class="div2_btn1_p" id="button81_p">Hint</p>
+				</button>
+				<button class="div2_btn2" id="button82" hidden>
+					<p class="div2_btn2_p" id="button82_p">Answer</p>
+				</button>
+			</div>
+			<div class="div3"><b>T</b></div>
+		</div>
+		
+		
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script src=https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js></script>
+
+	<script src="js/wordpaths.js"></script>
+	<script src="js/wordsearchcontroller.js"></script>
+	<script src="js/wordsearchlogic.js"></script>
+	<script src="js/wordsearchview.js"></script>
+	<script src="js/eventsInWord.js"></script>
+
+	<script>
+		$(document).ready(function () {
+			new WordSearchController("#wordboard", "#wordlist", "#solveButton", "#newGameButton", "#instructions",
+				"#wordTheme");
+		})
+	</script>
+</body>
+
+</html>
