@@ -25,10 +25,13 @@ h1, h2, #wordTheme, #solveButton, #newGameButton {
 }
 
 
-h1, h2, .cell, #wordTheme, #wordlist {
+h1, h2, #wordTheme, #wordlist {
 
 	background-color: white;
 
+}
+.cell{
+	background-image: "url(./images 1.png)";
 }
 
 h1, h2 {
@@ -71,7 +74,7 @@ body {
 .cell {
 
 	margin: 0 auto;
-	border: none;
+	border: 1px dotted black;
 	display: table-cell;
 	height:30px;
 	width: 30px;
@@ -159,6 +162,13 @@ body {
 	font-weight: bold;
 	margin-right : 11rem;
 	margin-top: 4rem;
+	cursor: pointer;
+
+}
+
+#solveButton:hover {
+
+	background-color: rgb(133, 187, 136);
 
 }
 #newGameButton {
@@ -173,6 +183,12 @@ body {
 	margin-left: 20rem;
 	position: absolute;
     margin-top: 3rem;
+	cursor: pointer;
+}
+
+#newGameButton:hover {
+
+	background-color: rgb(133, 187, 136);
 
 }
 
@@ -183,6 +199,7 @@ body {
 	height: 38px;
 	width: 540px;
 	display: flex;
+
 }
 
 .mean_word_p{
@@ -208,6 +225,7 @@ body {
     width: calc(540px - 76px);
     height: 38px;
 	position: relative;
+	background-color: rgb(240,240,240);
 }
 .div3{
 	border-left: 2px solid black;
@@ -243,8 +261,18 @@ body {
     align-items: center;
 	display: none;
 	border-radius: 10px;
+	background-color: rgb(234,247,251);
+	cursor: pointer;
 
 }
+
+.div2_btn1:hover{
+	background-color: rgb(206, 206, 234);
+}
+
+
+
+
 .div2_btn1_p{
 	font-family: "Moon";
 	/* border: 1px solid black; */
@@ -268,8 +296,16 @@ body {
     align-items: center;
 	display: none;
 	border-radius: 10px;
+	background-color: rgb(234,247,251);
+	cursor: pointer;
 
 }
+
+.div2_btn2:hover{
+	background-color: rgb(206, 206, 234);
+}
+
+
 .div2_btn2_p{
 	font-family: "Moon";
 	/* border: 1px solid black; */
